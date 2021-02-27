@@ -228,12 +228,97 @@ header a {
     grid-column: 3;
     grid-row: 1;
 }
+/* *Footer */
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#FCD107;
+    height: 800px;
+}
+.footer .container
+{
+    width: 100%;
+}
+.footer .flex{
+    justify-content: space-evenly;
+}
+.footer .display
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .display img
+{
+    height: 300px;
+    width: 300px;
+}
+.footer .text-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .text-area ul 
+{
+    margin-top: 40px;
+    display: flex;
+}
+.footer .nav-link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer  .nav-link a
+{
+    line-height: 60px;
+    color:  #3E3E3E;
+    font-size: 25px;
+    font-weight: 400;
+}
+.footer .text-area h6
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #636363;
+}
+.footer hr
+{
+    border: 1px solid #000;
+}
+.footer .social ul
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.social img
+{
+    height: 65px;
+    width: 65px;
+}
+.social li
+{
+    margin: 10px 20px;
+}
+.footer span
+{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.footer span img
+{
+    height: 20px;
+}
 
 /* *Media Querry */
 @media (min-width: 40em) {
 
     header,
-    section {
+    section,footer {
         padding: 2rem 0;
     }
 
